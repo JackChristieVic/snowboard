@@ -1,0 +1,123 @@
+    /* header's gradient color   */
+	  header{
+		  font-size: 250%;
+		  font-weight: bold;
+		  font-family: Arial, Consolas, "Courier New", monospace;
+		  padding: 1em;
+          color: white;
+		  background-image: linear-gradient(to bottom, rgb(65,144,220), rgb(65,114,196));
+	  }
+	  
+	  footer {
+		 font-size: 120%;
+		 font-family: Arial, Consolas;
+         padding: 1em;
+         color: white;
+         clear: left;
+         text-align: center;
+		 background-image: linear-gradient(to bottom, rgb(65,144,220), rgb(65,114,196));
+}
+	  
+	  nav{
+		  margin: 10;
+		  padding: 0;
+	  }
+	  
+	  nav ul{
+		  list-style-type: none;
+		  padding:8px 0;
+		  margin: 0;
+		  overflow: hidden;
+		  background-color: gray;
+		  line-height: 300%;
+	  }
+	  
+	  ul li{
+		  float: left;
+	  }
+	  
+	  nav ul li a{
+		  color: white;
+		  padding: 0 16px;
+		  margin: 0px;
+		  text-decoration: none;
+		  transition: 0.3s;
+		  font-size: 20px;
+		  font-family: Arial,'League Gothic', serif;
+	  }
+	  
+	  article{
+		  font-size: 130%;
+		  font-family: Arial,'League Gothic', serif;
+		 
+	  }
+      nav ul li a:hover{background-color: gray;}
+	  @font-face{
+		  font-family: 'League Gothic';
+            src: url('webfonts/leaguegothic-regular-webfont.eot');
+            src: url('webfonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+                 url('webfonts/leaguegothic-regular-webfont.woff') format('woff'),
+                 url('webfonts/leaguegothic-regular-webfont.ttf') format('truetype'),
+                 url('webfonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+           font-weight: bold;
+           font-style: normal;	  
+	  }
+     .viewing {
+	      color: pink; 
+	      outline: solid pink;
+      }
+	  
+	  
+	  article{
+		  margin-left: 170px;
+		  border-left: 1px solid rgb(65,114,196);
+		  padding: 1em;
+		  overflow: hidden;
+	  } 
+	  nav ul li a:hover{background-color: rgb(65,114,196);}
+      nav ul li.icon{display: none;}
+         @media screen and (max-width: 680px){
+	  nav ul li: not(:first-child) {display: none;}
+	  nav ul li.icon {
+		float: right;
+		display: inline-block;
+	    }
+       }
+       @media screen and (max-width: 680px;){
+	 nav ul.responsive {position: relative;}
+	 nav ul.responsive li.icon{
+		position: absolute;
+		right: 0;
+		top: 0;
+	   }
+	 nav ul.responsive li{
+		float: none;
+		display: inline;
+	   }
+	 nav ul.responsive li a{
+		display: block;
+		text-align: left;
+	 }
+    }
+	table, th, td {
+        border: .5px solid black;
+	    border-collapse: collapse;
+	    padding: 15px;
+	    text-align: center;
+	}
+	td{
+		text-align: left;
+		text-indent: 70px;
+	}
+    legend{
+		font-weight: bold;
+		font-size: 110%;
+	}
+
+
+
+
+
+
+
+
